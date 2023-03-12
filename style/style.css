@@ -1,0 +1,164 @@
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+nav{
+    display: flex;
+    background-color: #18793c8d;
+}
+nav ul{
+    display: flex;
+    margin-left: 65%;
+}
+nav ul li {
+    display: list-item;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav h1{
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+#name{
+    font-size: 40px;
+    color:rgb(162, 66, 6);
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+section h4{
+    font-size: 20px;
+    color:white;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div1{
+    height: 50em;
+    background-color: #18793c;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto ;
+    width: max-content;
+}
+footer{
+    background-color: rgb(126, 233, 26);
+    display: flex;
+}
+footer div{
+    width: max-content;
+    margin-left: 6%;
+}
+footer aside{
+    margin:auto;
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+footer aside img:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+#project{
+
+    background-color: #18793c;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.project{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+.link{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+.link a{
+    color: white;
+    font-size: 25px;
+    width: max-content;
+    border: 2px solid white;
+    padding:3%;
+    margin: 2px;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tech{
+    color:grey;
+    margin:2%;
+    padding: 2%;
+}
+.project h3 , .project p ,.project a ,.project h6{
+    padding:2px;
+}
+.project h3{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+}
+.project p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#project h1{
+    color: white;
+    font-size: 40px;
+}
+.field{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.form{
+    background-color: aqua;
+}
